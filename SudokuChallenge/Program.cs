@@ -32,8 +32,8 @@ class Program
             {
                 if (board[row][col] != '.')
                 {
-                    string cellRow = "Row: " + row + ", number: " + board[row][col];
-                    string cellCol = "Column: " + col + ", number: " + board[row][col];
+                    string cellRow = "Row: " + (row + 1) + ", number: " + board[row][col];
+                    string cellCol = "Column: " + (col + 1) + ", number: " + board[row][col];
                     string cellBox = "Box: " + (row/3 + 1) + "," + (col/3 + 1) + ", number: " + board[row][col];
                     
                     /*
